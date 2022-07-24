@@ -1,0 +1,19 @@
+
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    overscroll-behavior: none;
+
+}
+body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+
+}
+
+a {
+    color: #716f6f;
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,32 @@
+.home--navbar {
+    color: white;
+    font-size: larger;
+    background-color: #191414;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px 25px;
+    /* border-bottom: 0.5px solid #828282; */
+}
+
+
+
+.home--login {
+    background-color: #1DB954;
+    border: 0;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.home--login:hover {
+    background-color: #1CA954;
+}
+.home-page {
+    height: 100vh;
+    background-image: linear-gradient(to right, #191414, #1DB954 110%);
+}

@@ -1,0 +1,54 @@
+.player {
+    width: 100%;
+    border-top: 1px solid #555555;
+    bottom:0;
+    background-color: #151419;
+    position: fixed;
+    margin-right: 50%;
+}
+
+.player--img {
+    height:64px;
+    width:64px;
+    padding: 15px;
+    margin: 0;
+}
+
+.player--info {
+    margin-bottom: -70px;
+    padding-bottom: 0;
+    display: flex;
+    background-color: #151419;
+}
+
+.player--title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.player--artist {
+    color: grey;
+    margin:0;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.player--media {
+    margin: 0;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.player--buttons{
+    color:#555555;
+    padding: 0;
+}
+.player--buttons:hover {
+    color: white;
+}

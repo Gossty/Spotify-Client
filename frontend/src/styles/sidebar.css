@@ -1,0 +1,66 @@
+.sidebar {
+    color:#fff;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: -100px;
+    background-color: #151419;
+    /* background-image: linear-gradient(to right, #300a6a, #191414 100%); */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.sidebar::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.sidebar--home {
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.sidebar--home--link {
+    margin-left: 0;
+    color: grey;
+    display: flex;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+
+}
+
+.sidebar--home--link:hover {
+    color:rgb(255, 255, 255);
+    background-color:rgba(24, 34, 104, 0.2);
+    cursor:pointer;
+}
+
+
+.sidebar--playlists {
+    padding-bottom: 95px;
+}
+
+
+.sidebar--playlist {
+    color: grey;
+    font: size 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    padding-right: 5px;
+    border-radius: 7px;
+    padding-left: 15px;
+
+}
+.sidebar--playlist:hover {
+    color:rgb(255, 255, 255);
+    background-color:rgba(24, 34, 104, 0.2);
+    cursor:pointer;
+}
+.hr--boy {
+    border: 1px solid #555555;
+    margin-top: 15px;
+}
