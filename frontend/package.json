@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "keywords": [],
   "author": "",
