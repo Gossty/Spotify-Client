@@ -1,5 +1,3 @@
-from multiprocessing.sharedctypes import Value
-from turtle import position
 from .models import SpotifyToken
 from django.utils import timezone
 from datetime import timedelta
