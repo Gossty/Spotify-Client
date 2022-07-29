@@ -1,5 +1,2 @@
 db.sqlite3
-*.pyc
-spotify/.env
-ml_spotify/.env
-frontend/node_modules
+*.env
