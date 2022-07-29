@@ -5,3 +5,4 @@ whitenoise==6.2.0
 python-dotenv==0.16.0
 requests==2.26.0
 djangorestframework==3.13.1
+psycopg2-binary==2.9.3
