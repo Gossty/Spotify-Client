@@ -21,16 +21,6 @@ export default function Sidebar(props) {
     }, [])
     
   
-    // if (!isLiked) {
-    //   props.setLikedSongs((prevLikedSongs) => {
-    //     return {
-    //       ...prevLikedSongs,
-    //       flag: false
-    //     }
-    //   });
-    // }
-  
-  
   function showLiked() {
     props.setLikedSongs((prevLikedSongs) => {
       return {
@@ -46,7 +36,7 @@ export default function Sidebar(props) {
     <div className='sidebar'>
       <div className='sidebar--home'>
         <IconButton >
-          <Link to="/home" className='sidebar--home--link'>{<HomeIcon />} Home</Link>
+          <a href="https://github.com/Gossty/Spotify-Client" className='sidebar--playlist'>Github</a>
         </IconButton>
         <p className='sidebar--playlist' onClick={() => showLiked()}>Liked Songs</p>
         <hr className='hr--boy'></hr>

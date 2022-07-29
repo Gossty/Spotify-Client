@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
-
-import Navbar from './builds/Navbar';
 import Player from './builds/Player';
 import Sidebar from './builds/Sidebar';
 import Center from "./builds/Center";

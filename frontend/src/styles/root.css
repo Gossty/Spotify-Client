@@ -30,3 +30,19 @@
     height: 100vh;
     background-image: linear-gradient(to right, #191414, #1DB954 110%);
 }
+
+.home--text {
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    width: 100%;
+}
+
+.home--maintext {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.home--othertext{
+    color: #191414;
+}

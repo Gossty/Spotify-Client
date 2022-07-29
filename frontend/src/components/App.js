@@ -10,9 +10,6 @@ import "../styles/player.css"
 import Dashboard from './Dashboard'
 import HomePage from './HomePage'
 import ProtectRout from './ProtectedRouts'
-import Recommendations from './pages/Recommendations'
-import Stats from './pages/Statistics'
-import Home from "./pages/Home"
 
 
 export default function App() {
@@ -40,9 +37,6 @@ export default function App() {
           <Route exact path="/" element={<HomePage authenticate={authenticate} logged={state} />} />
             <Route element={<ProtectRout spotifyAuthenticated={state} />}>
             <Route exact path="/dashboard" element={<Dashboard />} />
-            <Route exact path="/home" element={<Home/>} />
-                <Route exact path="/statistics" element={<Stats/>}/>
-                <Route exact path="/recommendations" element={<Recommendations />} />
             </Route>
           </Routes>
         </Router>

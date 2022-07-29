@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import Recommendations from '../pages/Recommendations'
 import {Link} from "react-router-dom"
 import Dashboard from '../Dashboard'
 
