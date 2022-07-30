@@ -108,8 +108,6 @@ def execute_spotify_api_request_data(session_id, endpoint, data, post_=False, pu
         post(BASE_URL + endpoint, headers=headers, data=data)
     if put_:
         response = put(BASE_URL + endpoint, headers=headers, data=data)
-    response = get(BASE_URL + endpoint, {}, headers=headers)
-
     try:
         return response.json()
     except ValueError as err:

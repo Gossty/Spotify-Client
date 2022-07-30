@@ -9,9 +9,6 @@ import SpotifyIcon from "../../images/spotifyicon.png"
 
 export default function Player(props) {
 
-
-  
-
   const image = props.song.image_url_big;
   const title = props.song.title;
   const artist = props.song.artist;

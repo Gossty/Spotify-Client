@@ -3,11 +3,18 @@ import Player from './builds/Player';
 import Sidebar from './builds/Sidebar';
 import Center from "./builds/Center";
 
+import SpotifyIcon from "../images/spotifyicon.png"
+
 
 export default function Dashboard() {
 
   const [state, setState] = useState({
-    song: {},
+    song: {
+      image_url_big: SpotifyIcon,
+      title: "Play Song in Spotify Player",
+      artist: "Artist Name",
+      is_playing: false
+    },
     showSettings: false,
     accessToken: "",
   })
@@ -85,15 +92,25 @@ export default function Dashboard() {
   function getCurrentSong() {
     let isSong = true;
     fetch('spotify/current-song').then((response) => {
-      if (!response.ok) {
+      if (response.status === 204) {
         isSong = false;
-        return isSong;
-      } else {
-        return response.json();
+        return "no song playing"
       }
+      return response.json();
     }).then((data) => {
-      if (isSong)
+      if (isSong) {
         setState({ song: data });
+      }
+      else {
+        setState({
+          song: {
+            image_url_big: SpotifyIcon,
+            title: "Play Song in Spotify Player",
+            artist: "Artist Name",
+            is_playing: false
+          }
+        })
+      }
     });
   }
   useEffect(() => {
