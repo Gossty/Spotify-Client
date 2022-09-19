@@ -9,7 +9,9 @@
     /* border-bottom: 0.5px solid #828282; */
 }
 
-
+.home--otherothertext {
+    color: red;
+}
 
 .home--login {
     background-color: #1DB954;

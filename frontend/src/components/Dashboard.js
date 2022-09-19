@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Player from './builds/Player';
 import Sidebar from './builds/Sidebar';
 import Center from "./builds/Center";
-
 import SpotifyIcon from "../images/spotifyicon.png"
 
 

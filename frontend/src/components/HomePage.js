@@ -46,8 +46,8 @@ export default function HomePage(props) {
             <div className='home--text'>
             <h1 className='home--maintext'>Log in to Spotify to view this project 🏹</h1>
             <h4 className='home--othertext'>You need to have Spotify Premium for all features</h4>
+            <h4 className='home--otherothertext'>To get access to the website, email me: sgolzari@ucsd.edu</h4>
             </div>
-
 
         </div>
     )
